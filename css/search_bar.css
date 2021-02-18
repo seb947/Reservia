@@ -1,13 +1,7 @@
-@import 'css/body.css';
-@import 'css/header.css';
-@import 'css/search_bar.css';
-@import 'css/footer.css';
-
-
 /* affichage smartphone */
 @media screen and (max-device-width: 767px)
 {
-
+    
 }
 
 /* affichage tablette */

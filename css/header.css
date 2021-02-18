@@ -30,8 +30,15 @@
         padding-bottom: 4%;
         padding-top: 3%;
     }
+    
+    #lien_heb_h, #lien_act_h[data-active="true"] 
+    {
+        color: #0065FC;
+        border-bottom: 10px #0065FC solid;
+    }
 
-   #inscription {
+   #inscription 
+   {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,7 +48,7 @@
         font-size: 250%;
         font-weight: 900;
         color: #0065FC;
-      }
+    }
 
     #logo
     {
@@ -53,18 +60,13 @@
 }
 
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-device-width: 768px)
 {
     header
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-
-    header:nth-child(2)
-    {
-        justify-content: flex-end;
     }
 
     nav
@@ -77,7 +79,9 @@
 
     #logo
     {
-        max-width: 8%;
+        padding-top: 3%;
+        max-width: 100px;
+        max-height: 60px;
     }
 
     #lien_heb_h, #lien_act_h
@@ -85,8 +89,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 4%;
         padding-right: 3%;
         padding-left: 3%;
+    }
+
+    #lien_heb_h, #lien_act_h:hover {
+        color: #0065FC;
+        border-top: 2px #0065FC solid;
+    }
+    
+    #lien_heb_h, #lien_act_h[data-active="true"] {
+        color: #0065FC;
+        border-top: 2px #0065FC solid;
     }
 
     #inscription
@@ -94,6 +109,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 3.2%;
         padding-right: 2%;
         padding-left: 3%;
         font-size: 100%;
