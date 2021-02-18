@@ -1,0 +1,91 @@
+/* affichage smartphone */
+@media screen and (max-device-width: 767px)
+{
+
+    header
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav
+    {
+        order: 1;
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #lien_heb_h, #lien_act_h
+    {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+        border-bottom: 10px #F2F2F2 solid;
+        justify-content: center;
+        align-items: center;
+        font-size: 250%;
+        padding-bottom: 4%;
+        padding-top: 3%;
+    }
+
+   #inscription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        font-size: 250%;
+        font-weight: 900;
+        color: #0065FC;
+      }
+
+    #logo
+    {
+        margin-top: 6%;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        max-width: 25%;
+    }
+}
+
+/* affichage ordinateur et grands écrans */
+@media screen and (min-device-width: 1200px)
+{
+    header
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header > *, nav > *
+    {
+        border: 3px solid blue;
+    }
+
+    header:nth-child(2)
+    {
+        justify-content: flex-end;
+    }
+
+    nav
+    {
+        flex-basis: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #logo
+    {
+        max-width: 10%;
+    }
+
+    #inscription
+    {
+    }
+}
