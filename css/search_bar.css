@@ -1,8 +1,88 @@
 /* affichage smartphone */
 @media screen and (max-device-width: 767px)
 {
-    
+    /* Title */
+    h1
+    {
+        padding-top: 10px;
+        font-size: 6vw;
+        font-weight: 900;
+    }
+
+    .title_complement
+    {
+        margin-bottom: 25px;
+        font-size: 4vw;
+        font-weight: 400;
+    }
+
+    /* Search Bar */
+    #search_bar
+    {
+        display: flex;
+        margin: none;
+        padding: none;
+        border: 2px #F2F2F2 solid;
+        border-radius: 15px;
+        height: 50px;
+    }
+
+    #icone_gps
+    {
+        color: black;
+        background-color: #F2F2F2;
+        padding: 18px;
+        margin: 0px;
+        border: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .search_input
+    {
+        margin: 0px;
+        width: 70vw;
+        padding: 4.4vw;
+        padding-bottom: 3.8vw;
+        background-color: none;
+        border-right: none;
+        border: none;
+        font-weight: 900;
+    }
+
+    .search_input::placeholder
+    {
+        color: black;
+        opacity: 1;
+    }
+
+    .search_submit
+    {
+        background-color: #0065FC;
+        border: 2px #0065FC solid;
+        border-radius: 15px;
+        box-shadow: none;
+        border: none;
+        padding: 20px;
+        overflow: visible;
+        height: 54px;
+        position: relative;
+        top:-2px;
+        right:-2px;
+    }
+
+    .search_submit_computer
+    {
+        display: none;
+    }
+
+    .search_submit_mobile
+    {
+        color: white;
+        background-color: #0065FC;
+    }
 }
+
 
 /* affichage tablette */
 @media screen and (min-device-width: 768px) and (max-device-width: 1199px)
@@ -13,5 +93,8 @@
 /* affichage ordinateur et grands écrans */
 @media screen and (min-device-width: 1200px)
 {
-
+    .title_break
+    {
+        display: none;
+    }
 }

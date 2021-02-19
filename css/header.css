@@ -1,7 +1,6 @@
 /* affichage smartphone */
 @media screen and (max-device-width: 767px)
 {
-
     header
     {
         display: flex;
@@ -23,10 +22,10 @@
         display: flex;
         flex-grow: 1;
         flex-basis: 0;
-        border-bottom: 10px #F2F2F2 solid;
+        border-bottom: 4px #F2F2F2 solid;
         justify-content: center;
         align-items: center;
-        font-size: 250%;
+        font-size: 100%;
         padding-bottom: 4%;
         padding-top: 3%;
     }
@@ -34,7 +33,7 @@
     #lien_heb_h, #lien_act_h[data-active="true"] 
     {
         color: #0065FC;
-        border-bottom: 10px #0065FC solid;
+        border-bottom: 4px #0065FC solid;
     }
 
    #inscription 
@@ -45,7 +44,7 @@
         margin-top: 6%;
         margin-right: 4%;
         margin-bottom: 4%;
-        font-size: 250%;
+        font-size: 100%;
         font-weight: 900;
         color: #0065FC;
     }
