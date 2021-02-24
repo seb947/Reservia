@@ -1,6 +1,12 @@
 /* affichage smartphone */
 @media screen and (max-device-width: 767px)
 {
+
+    #search_section
+    {
+		margin: 20px;
+    }
+
     /* Title */
     h1
     {

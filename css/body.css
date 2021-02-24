@@ -19,12 +19,9 @@ a
 	{
 		margin: 0;
 	}
-	main{
-		margin: 20px;
-	}
 }
 
-/* affichage ordinateur et grands écrans */
+/* affichage ordinateur et grands écrans 
 @media screen and (min-device-width: 1200px)
 {
 	body
@@ -32,4 +29,4 @@ a
 		width: 70%;
 		margin: auto;
 	}
-}
+}*/
