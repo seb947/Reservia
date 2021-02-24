@@ -9,53 +9,73 @@
         <title>Reservia</title>
     </head>
     <body>
+        <!------------------------------Header----------------------------------->
         <header>
             <!-- logo reservia -->
             <img id= "logo" src="images/logo/Reservia@3x.png" alt="logo Reservia" />
             <!-- liens ancres -->
             <nav>
-                <a href="#" id="lien_heb_h">Hébergements</a>
-                <a href="#" id="lien_act_h">Activités</a>
+                <a href="#" id="link_heb_h">Hébergements</a>
+                <a href="#" id="link_act_h">Activités</a>
             </nav>
             <!-- lien inscription -->
-            <a href="#" id="inscription">S'inscrire</a>
+            <a href="#" id="signup">S'inscrire</a>
         </header>
 
         <main>
-            <!-- Barre de recherche -->
+            <!------------------------- Search Bar ---------------------->
             <section id="search_section">
-                <h1>Trouvez votre hébergement<br class="title_break">pour des vacances de rêve</h1>
+                <h1>Trouvez votre hébergement <br class="title_break">pour des vacances de rêve</h1>
                 <p class="title_complement">En plein centre ville ou en pleine nature</p>
                 <form id="search_bar">
                     <i id="icone_gps" class="fas fa-map-marker-alt"></i>
                     <input class="search_input" type="search" placeholder="Marseille, France" size="1">
                     <button class="search_submit">
                         <span class="search_submit_computer">Rechercher</span>
-                        <i class="search_submit_mobile fas fa-search"></i>
+                        <i id= "search_submit_mobile" class="fas fa-search"></i>
                     </button>
                 </form>
+                <!-- Filters -->
+                <p class="filter_title">Filtres</p>
                 <div id="cat_filtres">
                     <div class="filtres">
-                        <span>Filtres</span>
+                        <div class="icone_box">
+                            <div class="circle_filter"></div>
+                            <i class="fas fa-money-bill-wave icone_eco"></i>
+                        </div>
+                        <p class="filtre_item">Économique</p>
                     </div>
-                    <div class="economique">
-                        <i></i>
-                        <span>Économique</span>
+                    <div class="filtres">
+                        <div class="icone_box">
+                            <div class="circle_filter"></div>
+                            <i class="fas fa-child icone_family"></i>
+                        </div>
+                        <p class="filtre_item">Familial</p>
                     </div>
-                    <div class="familial">
-                        <i></i>
-                        <span>Familial</span>
+                    <div class="filtres">
+                        <div class="icone_box">
+                            <div class="circle_filter"></div>
+                            <i class="fas fa-heart icone_heart"></i>
+                        </div>
+                        <p class="filtre_item">Romantique</p>
                     </div>
-                    <div class="romantique">
-                        <i></i>
-                        <span>Romantique</span>
-                    </div>
-                    <div class="animaux">
-                        <i></i>
-                        <span>Animaux autorisés</span>
+                    <div class="filtres">
+                        <div class="icone_box">
+                            <div class="circle_filter"></div>
+                            <i class="fas fa-dog icone_animal"></i>
+                        </div>
+                        <p class="filtre_item">Animaux autorisés</p>
                     </div>
                 </div>
-                <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+                <!-- Results-->
+                <div class="info_result">
+                    <div class="info_box">
+                        <div class="info_circle"></div>
+                        <i class="fas fa-info fa-xs"></i>
+                    </div>
+                    <p class="text_result">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+                
             </section>
             <!-- Hébergements -->
             <section>
