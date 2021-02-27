@@ -257,20 +257,27 @@
         margin: none;
         padding: none;
         height: 50px;
+        border: 3px #F2F2F2 solid;
+        border-radius: 1rem;
+        max-width: 395px;
     }
 
     #icone_gps
     {
         color: black;
+        background-color: #F2F2F2;
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
         padding: 18px;
-        position: relative;
-        top: -2px;
         padding-left: 25px;
         padding-right: 25px;
+        align-self: center;
+        font-size: 20px;
     }
 
     .search_input
     {
+        padding-left: 10px;
         width: 10vw;
         background-color: none;
         border-right: none;
