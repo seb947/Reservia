@@ -141,6 +141,29 @@
 
     .icone_animal 
     {
+        font-size: 20px;
+        position: relative;
+        top: +15px;
+        left: -40px;
+        color: #0065FC;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .icone_heart 
+    {
+        font-size: 20px;
+        position: relative;
+        top: +17px;
+        left: -40px;
+        color: #0065FC;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .icone_family 
+    {
+        font-size: 20px;
         position: relative;
         top: +16px;
         left: -37px;
@@ -149,31 +172,12 @@
         vertical-align: middle;
     }
 
-    .icone_heart 
-    {
-        position: relative;
-        top: +17px;
-        left: -37px;
-        color: #0065FC;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .icone_family 
-    {
-        position: relative;
-        top: +17px;
-        left: -34px;
-        color: #0065FC;
-        text-align: center;
-        vertical-align: middle;
-    }
-
     .icone_eco 
     {
+        font-size: 17px;
         position: relative;
         top: +17px;
-        left: -38px;
+        left: -40px;
         color: #0065FC;
         text-align: center;
         vertical-align: middle;
@@ -220,15 +224,8 @@
     }
 }
 
-
-/* affichage tablette */
-@media screen and (min-device-width: 768px) and (max-device-width: 1199px)
-{
-
-}
-
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-device-width: 768px)
 {
     .title_break
     {
@@ -239,14 +236,16 @@
     h1
     {
         padding-top: 30px;
-        font-size: 1.1vw;
+        font-size: 133%;
         font-weight: 900;
+        margin-bottom: 10px;
     }
 
     .title_complement
     {
+        margin-top: 0px;
         margin-bottom: 40px;
-        font-size: 0.8vw;
+        font-size: 95%;
         font-weight: 100;
     }
 
@@ -259,7 +258,7 @@
         height: 50px;
         border: 3px #F2F2F2 solid;
         border-radius: 1rem;
-        max-width: 395px;
+        width: 29.5%;
     }
 
     #icone_gps
@@ -269,19 +268,21 @@
         border-top-left-radius: 0.8rem;
         border-bottom-left-radius: 0.8rem;
         padding: 18px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 19px;
         align-self: center;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .search_input
     {
         padding-left: 10px;
-        width: 10vw;
+        min-width: 180px;
+        width: 100%;
         background-color: none;
         border-right: none;
         border: none;
+        font-size: 20px;
         font-weight: 900;
     }
 
@@ -296,6 +297,9 @@
 
     .search_submit
     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #0065FC;
         border: 2px #0065FC solid;
         border-top-right-radius: 15px;
@@ -314,9 +318,9 @@
     {
         color: white;
         background-color: #0065FC;
-        font-size: 1vw;
-        position: relative;
-        top: -4px;
+        font-size: 108%;
+        font-weight: 900;
+        align-self: center;
     }
 
     #search_submit_mobile
@@ -328,7 +332,7 @@
     {
         padding-top: 20px;
         font-weight: 900;
-        font-size: 1vw;
+        font-size: 115%;
         float: left;
         position: relative;
         top: 8px;
@@ -373,7 +377,7 @@
         top: -2px;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 0.9vw;
+        font-size: 115%;
     }
 
     .icone_box
@@ -383,6 +387,29 @@
 
     .icone_animal 
     {
+        font-size: 20px;
+        position: relative;
+        top: +13px;
+        left: -40px;
+        color: #0065FC;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .icone_heart 
+    {
+        font-size: 20px;
+        position: relative;
+        top: +17px;
+        left: -39px;
+        color: #0065FC;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .icone_family 
+    {
+        font-size: 20px;
         position: relative;
         top: +16px;
         left: -37px;
@@ -391,31 +418,12 @@
         vertical-align: middle;
     }
 
-    .icone_heart 
-    {
-        position: relative;
-        top: +17px;
-        left: -38px;
-        color: #0065FC;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .icone_family 
-    {
-        position: relative;
-        top: +17px;
-        left: -35px;
-        color: #0065FC;
-        text-align: center;
-        vertical-align: middle;
-    }
-
     .icone_eco 
     {
+        font-size: 17px;
         position: relative;
         top: +17px;
-        left: -39px;
+        left: -40px;
         color: #0065FC;
         text-align: center;
         vertical-align: middle;
@@ -461,5 +469,13 @@
         position: relative;
         top: 3px;
         font-size: 0.8vw;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1199px)
+{
+    .text_result
+    {
+        font-size: 120%;
     }
 }
