@@ -40,8 +40,6 @@
     .popular_links
     {
         box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
-        -webkit-box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
-        -moz-box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
         background-color: white;
         display: flex;
         margin-top: 30px;
@@ -114,8 +112,6 @@
     .lodging_links
     {
         box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
-        -webkit-box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
-        -moz-box-shadow: -1px -1px 5px 5px rgba(0,0,0,0.05);
         background-color: white;
         display: flex;
         flex-direction: column;
