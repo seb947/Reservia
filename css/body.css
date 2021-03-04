@@ -12,7 +12,7 @@ a
 }
 
 /* affichage smartphone */
-@media screen and (max-device-width: 767px)
+@media screen and (max-width: 767px)
 {
     body
 	{
@@ -21,7 +21,7 @@ a
 	}
 }
 
-@media screen and (min-device-width: 767px) and (max-device-width: 1199px)
+@media screen and (min-width: 767px) and (max-width: 1199px)
 {
 	body
 	{
@@ -36,7 +36,7 @@ a
 }
 
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-width: 1200px)
 {
 	
 	html

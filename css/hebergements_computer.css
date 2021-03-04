@@ -1,5 +1,5 @@
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-width: 1200px)
 {
     #heb_section
     {

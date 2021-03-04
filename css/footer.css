@@ -1,5 +1,5 @@
 /* affichage smartphone */
-@media screen and (max-device-width: 767px)
+@media screen and (max-width: 767px)
 {
     footer 
     {
@@ -43,7 +43,7 @@
 }
 
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-width: 1200px)
 {
     footer 
     {
@@ -148,7 +148,7 @@
 }
 
 /* affichage ordinateur et grands écrans */
-@media screen and (min-device-width: 1200px)
+@media screen and (min-width: 1200px)
 {
     footer 
     {
