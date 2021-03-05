@@ -70,7 +70,7 @@
     .search_submit
     {
         background-color: #0065FC;
-        border: 2px #0065FC solid;
+        border: 2px #0065FD solid;
         border-radius: 15px;
         box-shadow: none;
         border: none;
@@ -191,7 +191,7 @@
         padding: 25px;
         position: relative;
         overflow: visible;
-        border: 2px #DEEBFF solid;
+        border: 2px #DEEBFE solid;
         left: -2px;
         top: -2px;
     }
@@ -301,7 +301,7 @@
         justify-content: center;
         align-items: center;
         background-color: #0065FC;
-        border: 2px #0065FC solid;
+        border: 2px #0065FD solid;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         box-shadow: none;
@@ -436,7 +436,7 @@
         padding: 25px;
         position: relative;
         overflow: visible;
-        border: 2px #DEEBFF solid;
+        border: 2px #DEEBFE solid;
         left: -2px;
         top: -2px;
     }
