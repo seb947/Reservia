@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+    footer
+    {
+        background-color: #F2F2F2;
+        padding: 30px 0px 25px 20px;
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .footer_list_block
+    {   
+        padding: 0px 5% 0px 5%;
+    }
+
+    .footer_titles
+    {
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+    .footer_links_list
+    {
+        display: flex;
+        flex-direction: column;
+        line-height: 28px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+}

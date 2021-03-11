@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px)
+{
+    header
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+    }
+
+    #logo
+    {
+        width: 100px;
+        margin: 20px;
+    }
+
+    #signup
+    {
+        font-weight: 900;
+        color: #0065FC;
+        line-height: 45px;
+        margin: 20px;
+    }
+
+    nav
+    {
+        order: 1;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #lodging, #activities
+    {
+        border-bottom: 3px #F2F2F2 solid;
+        flex-grow: 1;
+        flex-basis: 0;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    #lodging, #activities[data-active="true"]
+    {
+        color: #0065FC;
+        border-bottom: 4px #0065FC solid;
+    }
+}

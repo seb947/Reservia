@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) and (max-width: 1199px)
+{
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #logo
+    {
+        width: 120px;
+        height: 60px;
+        align-self: center;
+    }
+
+    nav
+    {
+        flex-grow: 1;
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .header_links
+    {
+        border-top: 2px white solid;
+        padding: 40px;
+    }
+
+    #lodging, #activities[data-active="true"]
+    {
+        color: #0065FC;
+        border-top: 2px #0065FC solid;
+    }
+
+    #signup
+    {
+        font-weight: 900;
+        color: #0065FC;
+    }
+}
