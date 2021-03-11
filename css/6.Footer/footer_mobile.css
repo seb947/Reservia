@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px)
+{
+    footer
+    {
+        background-color: #F2F2F2;
+        padding: 30px 20px 25px 20px;
+    }
+
+    .footer_titles
+    {
+        font-weight: 900;
+    }
+
+    .footer_links_list
+    {
+        display: flex;
+        flex-direction: column;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+}

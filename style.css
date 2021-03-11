@@ -1,0 +1,29 @@
+@import "css/main.css";
+
+/* MOBILE */
+@import "css/mobile.css";
+@import "css/1.Header/header_mobile.css";
+@import "css/2.Searchbar/searchbar_mobile.css";
+@import "css/3.Popular/popular_mobile.css";
+@import "css/4.Lodging/lodging_mobile.css";
+@import "css/5.Activities/activities_mobile.css";
+@import "css/6.Footer/footer_mobile.css";
+
+/* TABLET */
+@import "css/tablet.css";
+@import "css/1.Header/header_tablet.css";
+@import "css/2.Searchbar/searchbar_tablet.css";
+@import "css/3.Popular/popular_tablet.css";
+@import "css/4.Lodging/lodging_tablet.css";
+@import "css/5.Activities/activities_tablet.css";
+@import "css/6.Footer/footer_tablet.css";
+
+/* COMPUTER */
+@import "css/computer.css";
+@import "css/1.Header/header_computer.css";
+@import "css/2.Searchbar/searchbar_computer.css";
+@import "css/3.Popular/popular_computer.css";
+@import "css/4.Lodging/lodging_computer.css";
+@import "css/5.Activities/activities_computer.css";
+@import "css/6.Footer/footer_computer.css";
+
