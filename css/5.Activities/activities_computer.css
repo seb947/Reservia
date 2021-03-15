@@ -57,14 +57,14 @@
     {
         height: 400px;
         object-position: 50% 0%;
-        object-fit:none;
+        object-fit: cover;
     }
 
     .size_100_2
     {
         height: 400px;
         object-position: center top;
-        object-fit:none;
+        object-fit: cover;
         transform: scale(1.25);
     }
 

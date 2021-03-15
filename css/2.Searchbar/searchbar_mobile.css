@@ -155,33 +155,30 @@
 
     .info_result
     {
-        margin: 5px 0;
         display: flex;
-        flex-wrap: nowrap;
     }
 
-    #info
+    .info_circle
     {
+        display: flex;
         align-self: center;
-        line-height: 22px;
-        width: 30px;
-        border-radius: 5rem;
-        border: 2px #F2F2F2 solid;
-        color: #0065FC;
-        text-align: center;
         justify-content: center;
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        border: 2px #F2F2F2 solid;
+        border-radius: 3rem;
+    }
+
+    .fa-info
+    {
+        color: #0065FC;
+        align-self:center;
     }
 
     .text_result
     {
-        margin: 20px 0 0 10px;
-    }
-}
-
-@media screen and (max-width: 350px)
-{
-    .hide_word
-    {
-        display: none;
+        padding: 20px 0 0 10px;
+        margin: 0;
     }
 }
