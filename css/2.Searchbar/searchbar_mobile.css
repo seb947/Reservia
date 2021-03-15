@@ -182,3 +182,11 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 488px) and (max-width: 767px)
+{
+    .info_circle
+    {
+        margin-top: 15px;
+    }
+}
